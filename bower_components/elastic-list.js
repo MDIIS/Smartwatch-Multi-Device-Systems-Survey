@@ -3,7 +3,7 @@
 (function(){
 	// 数据变量
 	var affiliationDim = ['name', 'Affiliation at the time of award']; // 映射展示名
-	var dimensionsArray = ['Title','Publication Year','Publication Venue', 'System Number', 'Configuration', 'Role', 'SW Interaction', 'Application Domain', 'Relationship', 'Proxemics', 'Dynamics']; // 要处理的维度
+	var dimensionsArray = ['Title','Publication Year','Publication Venue', 'System NO.', 'Configuration', 'Role', 'Interaction', 'Application Domain', 'Relationship', 'Proxemics', 'Dynamics']; // 要处理的维度
 	var dimensions = {}; // 存储每个维度的值和过滤器
 	var documents; // 原始数据列表
 	const isTall = (name) => name === 'Title' || name === 'Application Domain';
