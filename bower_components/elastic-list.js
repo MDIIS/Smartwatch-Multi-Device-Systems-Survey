@@ -263,7 +263,7 @@
 				html += "<p style='margin-bottom: 5px;'>" + d.Title + "</p>";
 		});
 		d3.select("#results").html(html);
-		d3.select("#results-count").html("Found " + d3.select("#results").selectAll("p").size());
+		d3.select("#results-count").html("Found " + d3.select("#results").selectAll("p").size()+ " Systems");
 	};
 
 	String.prototype.capitalize = function()
